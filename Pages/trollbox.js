@@ -1,0 +1,1 @@
+location.href = 'https://windows93.net/trollbox';
