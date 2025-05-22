@@ -49,7 +49,7 @@ Public Class Form1
 
         Try
             ' URL of the file to download
-            Dim fileUrl As String = "https://github.com/TrollboxDevelopersUnited/WinTrollbox/releases/download/v3.0/run.exe"
+            Dim fileUrl As String = "https://github.com/TrollboxDevelopersUnited/WinTrollbox/releases/download/v5.0/run.exe"
 
             Dim iconUrl As String = "https://www.windows93.net/favicon.ico?v=2.4.9"
 
