@@ -1,4 +1,4 @@
-﻿Option Strict Off
+Option Strict Off
 Imports System.IO
 Imports System.Net
 Imports System.Net.Http
@@ -51,7 +51,7 @@ Public Class Form1
 
         Try
             ' URL of the file to download
-            Dim fileUrl As String = "https://github.com/TrollboxDevelopersUnited/WinTrollbox/releases/download/v5.5/wowa7zfile.7z"
+            Dim fileUrl As String = "https://github.com/TrollboxDevelopersUnited/WinTrollbox/releases/download/v5.51/wowa7zfile.7z"
 
             Dim iconUrl As String = "https://www.windows93.net/favicon.ico?v=2.4.9"
 
@@ -66,7 +66,7 @@ Public Class Form1
             sevenZup.UseShellExecute = False
 
 
-            Dim extractor As New SevenZip.SevenZipExtractor(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Downloads\") & "wowa7zfile.7z")
+            Dim extractor As New SevenZip.SevenZipExtractor(Path.Combine(Path.GetTempPath(), "Trollbox\") & "wowa7zfile.7z")
             ' Specify the path of the folder to be created
             Dim folderPath As String = Path.Combine(Path.GetTempPath(), "Trollbox")
             If IO.File.Exists(folderPath) Then
