@@ -3,6 +3,6 @@ This is the setup for the Native Trollbox App.
 
 SOURCE OF THE APP: https://github.com/TrollboxDevelopersUnited/WinTrollbox
 
-NOTE: do not remove any file from the zip
+Do not remove any DLLs in the dir btw
 
-NOTE: you must install https://github.com/TrollboxDevelopersUnited/WinTrollbox in your download folder before doing the setup
+It's simple
